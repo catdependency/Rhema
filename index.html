@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Inter400,800,900&display=swap" rel="stylesheet">
+<link href="rhema.css" rel="stylesheet">
+<script src="rhema.js"></script>
+
+
+
+</head>
+
+<div class="container">
+        <nav class="heading">Refresh Buttons<br>
+        <button class="iframe-border button" onclick="refreshIframe();">Bible Gateway</button>
+        <button class="iframe-border button1" onclick="refreshIframe1();">Heart Dwellers</button>
+        <button class="iframe-border button2" onclick="refreshIframe2();">Sanders Web</button>
+        <button class="iframe-border button3" onclick="refreshIframe3();">Random Bible</button>
+        </nav>
+
+
+    <div id="sidebar" class="heading">Bible Gateway<br>
+    <iframe  id="Bible-Gateway" class="fill" name="Bible-Gateway" src="https://www.biblegateway.com/passage/?search=Psalm+119&version=NIV"></iframe>
+    </div>
+
+    <div id="main" class="heading">Heart Dwellers<br>
+    <iframe id="hd" name="hd" class="fill" src="http://search.stillsmallvoicetriage.org/rhemas.php"></iframe>
+    </div>
+
+    <div id="content1" class="heading">Sanders Web<br>
+    <iframe id="sanders" name="sanders" class="fill" src="http://sandersweb.net/bible/verse.php"></iframe>
+    </div>
+
+    <!--<div id="content2"></div>  -->
+    <!-- <div id="content3">Content3</div> -->
+
+    <div id="footer" class="heading">Random Bible Generator<br>
+    <iframe id="Random-Chapter" name="Random-Chapter" class="fill" src="https://randombibleizer.spiffy.tech/"></iframe>
+    </div>
+</div>
